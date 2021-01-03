@@ -1,2 +1,15 @@
-# clean-log-script
-Script for cleaning log file
+Скрипт очищает лог файл (log.txt), сохраняя все данные в log.txt_N.
+
+
+Пример:
+
+![lol](https://user-images.githubusercontent.com/56086653/103471144-52cfa700-4d8d-11eb-9e81-b67fe6ecce4d.png)
+
+* log.txt - файл с логами
+
+* 2 - размер в Кб размера, после которого будет производиться отчистка
+* 1 - количество порождаемых файлов. (если бы ввели 2, то при повторном заполннии log.txt, создался бы файл log.txt_2 и тд)
+
+На выходе имеем:
+
+![image](https://user-images.githubusercontent.com/56086653/103471172-e1442880-4d8d-11eb-8a40-3a293154b014.png)
